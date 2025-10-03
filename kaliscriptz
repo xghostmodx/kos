@@ -2,10 +2,6 @@ sudo chmod u+x -vf bashit
 sudo sh ./bashit
 sudo bashit mod
 sudo bashit kos
-sudobashit get
-mod
-readme.md
-bashit
-custom.prf [lynis]
-get
-kos
+sudo bashit get
+#custom.prf [lynis]
+
