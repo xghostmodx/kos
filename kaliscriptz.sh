@@ -1,7 +1,6 @@
-sudo chmod u+x -vf bashit
 sudo sh ./ bashit
-sudo bashit mod
-sudo bashit kos
-sudo bashit get
-#custom.prf [lynis]
+sudo sh ./ mod
+sudo sh ./ kos
+sudo sh ./ get
+
 
