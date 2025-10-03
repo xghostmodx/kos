@@ -1,4 +1,5 @@
-#!/bin/bash 
+#!/bin/bash
+###just a apt file installer with all options needed for full install###
 echo " what the fuck are you installing?"
 read NAME 
 sudo apt  --fix-broken install
