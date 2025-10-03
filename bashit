@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "whats the name ??"
+read NAME
+touch $NAME.sh
+sudo chmod u+x -vf $NAME.sh
+sudo sh ./$NAME.sh
+mv $NAME.sh $NAME
+crontab -e $NAME
+echo "done bitchhh!!!"
+
+

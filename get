@@ -1,0 +1,7 @@
+#!/bin/bash 
+echo " what the fuck are you installing?"
+read NAME 
+sudo apt  --fix-broken install
+sudo apt  build-dep $NAME
+sudo apt install $NAME -y --unattended-upgrade=yes --fix-broken --fix-missing --install-recommends --allow-change-held-packages $NAME
+ 
