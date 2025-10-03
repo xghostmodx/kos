@@ -1,5 +1,5 @@
 sudo chmod u+x -vf bashit
-sudo sh ./bashit
+sudo sh ./ bashit
 sudo bashit mod
 sudo bashit kos
 sudo bashit get
