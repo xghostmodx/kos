@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "whats the name ??"
+###just a simple .sh file maker#### 
 read NAME
 touch $NAME.sh
 sudo chmod u+x -vf $NAME.sh
